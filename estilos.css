@@ -27,45 +27,7 @@ body
 	font-family: Century Gothic;
 }
 
-#accion{
-	font-family: century gothic;
-	font-size: 16px;
-	color: #000;
-	width: 20%;
-	outline: none;
-	padding: 10px;
 
-	border: none;
-	border-bottom: 2px solid #c0c0c0;
-	align-content: center;
-	}
-#accion:focus{
-	width: 40%;
-    -webkit-transition: width 0.8s ease-in-out;
-    transition: width 0.8s ease-in-out;
-	outline: none;
-	border: 2px solid #24cdb2;
-	}
-#caja_1, #caja_2
-{
-	font-family: century gothic;
-	font-size: 16px;
-	color: #000;
-	width: 28%;
-	outline: none;
-	padding: 10px;
-	border: none;
-	border-bottom: 2px solid #c0c0c0;
-	align-content: center;
-}
-#caja_1:focus, #caja_2:focus
-{
-	width: 40%;
-    -webkit-transition: width 0.8s ease-in-out;
-    transition: width 0.8s ease-in-out;
-	outline: none;
-	border: 2px solid #24cdb2;
-}
 .input-group{
 	position: relative;
 	margin-bottom: 18px;
@@ -112,4 +74,9 @@ body
 }
 .texto{
 	align-content:justify;
+}
+
+@media(max-width:768px){
+
+	
 }
