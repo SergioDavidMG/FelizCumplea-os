@@ -93,7 +93,7 @@ body
 .contenedor{
 	width:70%;
 		
-	max-width: 550px;
+	max-width: 500px;
 	padding: 2% 10% 10% 10%;
 	margin-top: 3%;
 	margin-left: 20%;
@@ -113,9 +113,9 @@ body
 }
 .div_imagen{
 	
-	margin-left: 60%;
+	margin-left: 58%;
 	margin-top: -8%;
-	margin-left: 60%;
+	margin-left: 58%;
 	width: 200px;
 	height: 200px;
 	border-radius: 100px;
