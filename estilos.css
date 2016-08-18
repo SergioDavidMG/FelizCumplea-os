@@ -2,7 +2,13 @@ body
 {
 	color: #000;
 	background-color: #24cdb2;
-	font-family: Centery Gothic;
+	font-family: Century Gothic;
+	
+}
+.bodyy
+{
+	color: #000;
+	font-family: Century Gothic;
 	
 }
 .contenedor{
@@ -17,6 +23,8 @@ body
 	-moz-box-shadow: 0px -1px 29px 1px rgba(107,104,84,1);
 	box-shadow: 0px -1px 29px 1px rgba(107,104,84,1);
 	border-radius: 60px;
+	color: #000;
+	font-family: Century Gothic;
 }
 
 #accion{
@@ -62,20 +70,32 @@ body
 	position: relative;
 	margin-bottom: 18px;
 }
-
+.div_imagen{
+	
+	margin-left: 60%;
+	margin-top: -8%;
+	margin-left: 60%;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	background: #fff;
+}
 
 .esTabla
 {
-	margin-top: 10px;
+	
+	position:relative;
+	margin-top: -25%;
 	margin-bottom: 10px;
-	padding-top: 30px;
+	padding-top: -25%;
 	padding-bottom: 30px;
 	color: black;
-	background-color: white;
-	width: 50%;
-	border: 3px solid #24cdb2;
+	background:none;
+	align-content:justify;
+	
+	border: 0px solid #24cdb2;
 	border-radius: 15px;
-	font-size: 20px;
+	font-size: 21px;
 	white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
    	white-space: -pre-wrap;      /* Opera 4-6 */
    	white-space: -o-pre-wrap;    /* Opera 7 */
@@ -83,10 +103,13 @@ body
    	word-wrap: break-word;       /* Internet Explorer 5.5+ */
    	word-break: break-all;
    	white-space: normal;
+	
+	font-family: Century Gothic;
+	
+}
+.caja{
+	width:40%;
 }
 .texto{
-	width: 50%;
-	height:20%;
-}
-	
+	align-content:justify;
 }
